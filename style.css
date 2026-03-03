@@ -11,3 +11,10 @@ body {
     background-size: 512px 100%;
     background-repeat: no-repeat;
 }
+.banner-img {
+    max-width: 512px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
