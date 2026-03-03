@@ -9,10 +9,20 @@ body {
     outline: 2px solid black;
     background-image: url(./img/background.png);
     background-size: cover;
-    background-size: 512px 100%;
     background-repeat: no-repeat;
 }
 
+
+/* Header */
+.banner-img {
+    max-width: 512px;
+}
+
+/* Buttons + Description + 1st title*/
+.section-0 {
+    padding: 80px 20px 60px;
+    color: white;
+}
 .sect-title {
     font-family: "Bowlby One", sans-serif;
     font-weight: 400;
@@ -21,35 +31,48 @@ body {
     font-size: 34px;
     line-height: 1.1;
 }
-
-/* Header */
-.banner-img {
-max-width: 512px;
-width: 100%;
-position: absolute;
-top: 0;
-left: 0;
-}
-
-/* Buttons + Description + 1st title*/
-.description-0 {
-    position: absolute;
-    top: 120px;
-    left: 20px;
-    color: white;
-    width: 472px;
-}
-
-.section-0 {
-    position: absolute;
-    top: 200px;
-    left: 20px;
-    color: white;
-}
-
 .title-0 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 340px;
+    text-align: center;
+}
+
+.description-0 {
+    font-size: 20px;
+    padding: 10px;
+    top: 360px;
+    text-align: center;
     color: white;
+}
+
+.down-button {
+    width: 400px;
+    background-color: white;
+    color: black;
+    margin: 5px 36px;   
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+.open-button {
+    width: 400px;
+    background-color: rgb(113, 127, 209);
+    color: white; 
+    margin: 5px 36px; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+    
+
+
+/* Stuff */
+
+.dwl-img {
+    transform: translate(-50%);
+    width: 20px;
+    height: 20px;
+    left: 80px;
 }
