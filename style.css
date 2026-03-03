@@ -68,12 +68,13 @@ body {
 .dwl-img {
     transform: translate(-50%);
     width: 20px;
-    height: 20px;
+    aspect-ratio: 1;
     left: 80px;
 }
 
 /* Sezioni con bg e immagini */
 .section-bg {
+    position: relative;
     background-color: rgb(79, 129, 204);
     padding: 60px 30px;
     margin:  40px 30px;
@@ -81,6 +82,16 @@ body {
     color: white;
     max-width: 452px;
 }
+
+.icon {
+    position: absolute;
+    transform: translate(-50%);
+    width: 100px;
+    aspect-ratio: 1;
+    top: -50px;
+    left: 150px;
+}
+    
 
 .img-sample {
     margin: 0;
