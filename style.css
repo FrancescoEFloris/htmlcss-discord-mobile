@@ -5,7 +5,9 @@
 }
 body {
     width: 512px;
-}
-.fade-bg {
-    
+    outline: 2px solid black;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-size: 512px 100%;
+    background-repeat: no-repeat;
 }
