@@ -13,14 +13,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.banner-img {
-    max-width: 512px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .sect-title {
     font-family: "Bowlby One", sans-serif;
     font-weight: 400;
@@ -30,7 +22,32 @@ body {
     line-height: 1.1;
 }
 
-.title-1 {
+/* Header */
+.banner-img {
+max-width: 512px;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+/* Buttons + Description + 1st title*/
+.description-0 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: white;
+    width: 472px;
+}
+
+.section-0 {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    color: white;
+}
+
+.title-0 {
     position: absolute;
     top: 20px;
     left: 20px;
